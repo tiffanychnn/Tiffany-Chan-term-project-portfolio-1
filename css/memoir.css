@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -60,24 +60,33 @@ section {
     padding: 20px;
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #00A2A2;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
+p {
+    font-family: 'Inter';
 }
 
 .prototype {
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .prototype img {
     max-width: 100%;
     height: auto;
-    border: 1px dashed #ccc;
+    border: 1px dashed #181818;
+    border-radius: 30px;
+}
+
+.prototype p {
+    margin-top: 50px;
 }
 
 .details {
@@ -87,19 +96,24 @@ h1 {
 }
 
 .detail {
-    text-align: center;
+    text-align: left;
 }
 
 .detail h2 {
-    color: #555;
+    color: #5FB0B7;
+    font-weight: 500;
 }
 
 .issues, .solutions, .user-persona {
     margin-bottom: 20px;
 }
 
+.issues h2, .solutions h2 {
+    color: #C8A2C8;
+    font-weight: 500;
+}
+
 h2 {
-    border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
 }
 
@@ -109,13 +123,17 @@ ul {
 }
 
 ul li {
-    background: #eee;
     margin: 5px 0;
     padding: 10px;
+    font-family: 'Inter';
+}
+
+.user-persona h2 {
+    color: #5FB0B7;
+    font-weight: 500;
 }
 
 .user-persona p {
-    background: #f9f9f9;
     padding: 10px;
 }
 
