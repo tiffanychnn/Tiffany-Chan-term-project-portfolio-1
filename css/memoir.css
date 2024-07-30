@@ -2,6 +2,13 @@
     width: 90px;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
 /* nav bar */
 
 nav {
@@ -43,4 +50,116 @@ nav ul a {
 section {
     padding: 20px;
     margin: 20px 0;
+}
+
+/* info */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prototype {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prototype img {
+    max-width: 100%;
+    height: auto;
+    border: 1px dashed #ccc;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.detail {
+    text-align: center;
+}
+
+.detail h2 {
+    color: #555;
+}
+
+.issues, .solutions, .user-persona {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.user-persona p {
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 50px;
+}
+
+footer .line {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10 20px;
+    padding-left: 145px;
+}
+
+.footer-section h3 {
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2F2F2F;
+}
+
+.footer-section p {
+    font-family: "Inter";
+    margin: 0;
+}
+
+.footer-section .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-section .socials {
+    width: 40px;
+    height: 40px;
 }

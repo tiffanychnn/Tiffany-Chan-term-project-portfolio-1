@@ -36,12 +36,14 @@ nav ul li:hover {
 }
 
 nav ul a {
-    color: black;
+    color: #2F2F2F;
     text-decoration: none;
 }
 
+/* all section */
+
 section {
-    padding: 20px;
+    padding: 5%;
     margin: 20px 0;
 }
 
@@ -63,16 +65,21 @@ h3 {
 
 p {
     font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
 }
+
+/* bio */
 
 .profile {
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: center;
 }
 
 .profile img {
-    border: 2px dashed #000000;
+    border: 2px dashed #2F2F2F;
     border-radius: 30px;
     width: 300px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
@@ -81,7 +88,16 @@ p {
 .profile .bio h1 {
     margin: 0;
     color: #00A2A2;
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
+
+.profile .bio p {
+    width: 600px;
+    padding-left: 10%;
+}
+
+/* tools */
 
 section#tools .tools-list {
     display: flex;
@@ -89,6 +105,7 @@ section#tools .tools-list {
     background-color: #A7D7C5;
     border-radius: 30px;
     height: 250px;
+    justify-content: center;
 }
 
 .tools-list .tool {
@@ -96,6 +113,7 @@ section#tools .tools-list {
     flex-direction: column;
     align-items: center;
     padding: 38px;
+    justify-content: center;
 }
 
 .tools-list .tool img {
@@ -103,22 +121,29 @@ section#tools .tools-list {
     height: 90px;
 }
 
+.tools-list p {
+    font-weight: 500;
+}
+
 /* extras */
 
 .hobbies {
     display: flex;
-    gap: 20px;
+    gap: 200px;
 }
 
 .hobbies .hobby {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* text-align: left; */
 }
 
 .hobbies .hobby h3{
     text-align: left;
+}
+
+.hobbies .hobby p {
+    width: 258px;
 }
 
 .hobbies .hobby img {
@@ -131,7 +156,8 @@ section#tools .tools-list {
 
 #extras h3{
     display: flex;
-    
+    font-weight: 500;
+    color: #2F2F2F;
 }
 
 /* footer */
@@ -154,13 +180,14 @@ footer .line {
 .footer-section {
     flex: 1;
     padding: 10 20px;
-    padding-left: 245px;
+    padding-left: 145px;
 }
 
 .footer-section h3 {
     font-family: "Poppins";
     font-weight: bold;
     margin-bottom: 10px;
+    color: #2F2F2F;
 }
 
 .footer-section p {
