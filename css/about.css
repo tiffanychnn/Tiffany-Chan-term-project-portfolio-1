@@ -129,7 +129,9 @@ section#tools .tools-list {
 
 .hobbies {
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
+    /* gap: 200px; */
+    width: 100%;
 }
 
 .hobbies .hobby {
