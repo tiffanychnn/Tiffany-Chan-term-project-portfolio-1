@@ -7,6 +7,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #F6F6F6;
 }
 
 /* nav bar */
@@ -128,13 +129,57 @@ ul li {
     font-family: 'Inter';
 }
 
+/* user persona */
+
 .user-persona h2 {
     color: #5FB0B7;
     font-weight: 500;
 }
 
 .user-persona p {
-    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.user-persona img {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* user flow */
+
+.user-flow h2 {
+    color: #5FB0B7;
+    font-weight: 500;
+}
+
+.user-flow p {
+    padding-bottom: 10px;
+}
+
+.user-flow img{
+    border-radius: 30px;
+}
+
+/* wireframes */
+
+.wireframes h2 {
+    color: #5FB0B7;
+    font-weight: 500;
+}
+
+.wireframes img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+/* takeaways */
+
+.takeaways h2 {
+    color: #5FB0B7;
+    font-weight: 500;
 }
 
 /* footer */
