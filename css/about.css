@@ -205,6 +205,8 @@ footer .line {
     font-family: "Inter";
     margin: 0;
     color: #2F2F2F;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 .footer-section .social-icons {
