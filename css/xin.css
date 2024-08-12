@@ -3,14 +3,14 @@
 }
 
 body {
-    font-family: 'Poppins';
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background-color: #F6F6F6;
 }
 
 /* nav bar */
+
+header {
+    padding-bottom: 10%;
+}
 
 nav {
     display: flex;
@@ -32,7 +32,7 @@ nav ul li {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    color: rgb(34, 32, 32);
+    color: #2F2F2F;
     font-size: 22px;
     font-family: "Poppins";
 }
@@ -44,13 +44,8 @@ nav ul li:hover {
 }
 
 nav ul a {
-    color: black;
+    color: #2F2F2F;
     text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 20px 0;
 }
 
 /* info */
@@ -58,7 +53,6 @@ section {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
 }
 
 h1 {
@@ -66,10 +60,12 @@ h1 {
     margin-bottom: 20px;
     font-weight: 500;
     color: #00A2A2;
+    font-family: "Poppins";
 }
 
 p {
-    font-family: 'Inter';
+    font-family: "Inter";
+    padding-bottom: 3%;
 }
 
 .prototype {
@@ -85,8 +81,7 @@ p {
 }
 
 .prototype img {
-    max-width: 70%;
-    height: auto;
+    width: 55%;
     border: 1px dashed #181818;
     border-radius: 30px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
@@ -109,6 +104,11 @@ p {
 .detail h2 {
     color: #5FB0B7;
     font-weight: 500;
+    font-family: "Poppins";
+}
+
+.detail p {
+    margin-bottom: 20px;
 }
 
 .issues, .solutions, .user-persona {
@@ -118,6 +118,16 @@ p {
 .issues h2, .solutions h2 {
     color: #C8A2C8;
     font-weight: 500;
+    font-family: "Poppins";
+}
+
+.issues {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.solutions #sol2 {
+    margin-bottom: 7%;
 }
 
 h2 {
@@ -135,18 +145,20 @@ ul li {
     font-family: 'Inter';
 }
 
-/* user persona */
+/* brandstory */
 
-.user-persona h2 {
+.story h2 {
+    margin-top: 20px;
     color: #5FB0B7;
     font-weight: 500;
+    font-family: "Poppins";
 }
 
-.user-persona p {
-    padding-bottom: 10px;
+.story p {
+    padding-bottom: 20px;
 }
 
-.user-persona img {
+.story img {
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -154,46 +166,54 @@ ul li {
     width: 60%;
     margin-left: 20%;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 7%;
 }
 
-/* user flow */
+/* logos */
 
-.user-flow h2 {
+.logos h2 {
     color: #5FB0B7;
     font-weight: 500;
+    font-family: "Poppins";
 }
 
-.user-flow p {
+.logos p {
     padding-bottom: 10px;
+    font-family: "Inter";
 }
 
-.user-flow img{
+.logos img{
     border-radius: 30px;
-    width: 40%;
-    margin-left: 27%;
+    width: 60%;
+    margin-left: 20%;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
-/* wireframes */
+/* moodboard */
 
-.wireframes h2 {
+.mood h2 {
+    margin-top: 7%;
     color: #5FB0B7;
     font-weight: 500;
+    font-family: "Poppins";
 }
 
-.wireframes img {
+.mood img {
     border-radius: 30px;
-    width: 50%;
-    margin-left: 23%;
+    width: 60%;
+    margin-left: 20%;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* takeaways */
 
 .takeaways h2 {
+    margin-top: 7%;
     color: #5FB0B7;
     font-weight: 500;
+    font-family: "Poppins";
 }
+
 
 /* footer */
 
@@ -215,7 +235,7 @@ footer .line {
 .footer-section {
     flex: 1;
     padding: 10 20px;
-    padding-left: 145px;
+    padding-left: 200px;
 }
 
 .footer-section h3 {
@@ -228,6 +248,7 @@ footer .line {
 .footer-section p {
     font-family: "Inter";
     margin: 0;
+    color: #2F2F2F;
 }
 
 .footer-section .social-icons {
