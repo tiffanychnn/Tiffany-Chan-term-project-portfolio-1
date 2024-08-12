@@ -28,7 +28,7 @@ nav ul li {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    color: rgb(34, 32, 32);
+    color: #2F2F2F;
     font-size: 22px;
     font-family: "Poppins";
 }
@@ -106,7 +106,7 @@ p {
 section#tools .tools-list {
     display: flex;
     gap: 20px;
-    background-color: #A7D7C5;
+    background-color: #BDE0D2;
     border-radius: 30px;
     height: 250px;
     justify-content: center;

@@ -2,9 +2,9 @@
     width: 90px;
 }
 
- body {
+body {
     background-color: #F6F6F6;
- }
+}
 
 /* nav bar */
 
@@ -32,7 +32,7 @@ nav ul li {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    color: rgb(34, 32, 32);
+    color: #2F2F2F;
     font-size: 22px;
     font-family: "Poppins";
 }
@@ -44,16 +44,109 @@ nav ul li:hover {
 }
 
 nav ul a {
-    color: black;
+    color: #2F2F2F;
     text-decoration: none;
 }
 
 /* proj carousel  */
 
-.carousel-cell {
+/* .carousel-cell {
     width: 100%;
     height: 160px; 
     margin-right: 10px;
+} */
+
+.intro {
+    background-color: #BDE0D2;
+    padding: 40px;
+    margin: 20px;
+    margin-top: 0;
+    margin-left: 13%;
+    border: 2px dashed #2F2F2F;
+    text-align: left;
+    border-radius: 12px;
+    width: 70%;
+    display: flex;
+}
+
+.intro-text p {
+    font-family: "Poppins";
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-size: 21px;
+    color: #2F2F2F;
+}
+
+.intro-text a {
+    font-family: "Inter";
+    display: flex;
+    color: #2F2F2F;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2F2F2F;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.mission {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    color: #2F2F2F;
+}
+
+.projects {
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.projects h2 {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #008080;
+    padding-bottom: 2%;
+}
+
+.projects p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.projects span {
+    font-family: "Inter";
+    justify-content: left;
+    display: flex;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.project-card {
+    width: 30%;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project-card#xin img {
+    height: 380px;
 }
 
 /* footer */
@@ -76,7 +169,7 @@ footer .line {
 .footer-section {
     flex: 1;
     padding: 10 20px;
-    padding-left: 145px;
+    padding-left: 200px;
 }
 
 .footer-section h3 {
@@ -89,6 +182,7 @@ footer .line {
 .footer-section p {
     font-family: "Inter";
     margin: 0;
+    color: #2F2F2F;
 }
 
 .footer-section .social-icons {
