@@ -118,6 +118,7 @@ section#tools .tools-list {
     align-items: center;
     padding: 38px;
     justify-content: center;
+    padding-top: 3.5%;
 }
 
 .tools-list .tool img {
@@ -145,7 +146,7 @@ section#tools .tools-list {
 }
 
 .hobbies .hobby h3{
-    text-align: left;
+    text-align: center;
 }
 
 .hobbies .hobby p {
@@ -164,6 +165,10 @@ section#tools .tools-list {
     display: flex;
     font-weight: 500;
     color: #2F2F2F;
+}
+
+#extras p {
+    padding-bottom: 1.5%;
 }
 
 /* footer */
@@ -186,7 +191,7 @@ footer .line {
 .footer-section {
     flex: 1;
     padding: 10 20px;
-    padding-left: 145px;
+    padding-left: 200px;
 }
 
 .footer-section h3 {
@@ -199,6 +204,7 @@ footer .line {
 .footer-section p {
     font-family: "Inter";
     margin: 0;
+    color: #2F2F2F;
 }
 
 .footer-section .social-icons {
