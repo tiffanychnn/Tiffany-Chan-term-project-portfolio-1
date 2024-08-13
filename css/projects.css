@@ -88,6 +88,16 @@ h2 {
     padding: 4%;
 }
 
+#aleft {
+    width: 20%;
+    transform: translateX(-20%) translateY(100%);
+}
+
+#aright {
+    width: 30%;
+    margin-left: 85%;
+}
+
 .project-category h2 {
     margin-bottom: 20px;
 }
